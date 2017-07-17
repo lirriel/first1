@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>TAUMultiPage</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>json.validation.builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.tizen.web.project.builder.WebBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>json.validation.nature</nature>
+		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
+		<nature>org.tizen.web.project.builder.WebNature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>_TouchCube.mp4</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/%D0%97%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B8/_TouchCube.mp4</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>

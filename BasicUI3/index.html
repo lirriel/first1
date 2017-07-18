@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<!-- <html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    Include jQuery Mobile stylesheets
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="./css/themes/defalut/jquery.mobile-1.4.5.min.css"> 
+  
+  	<script type="text/javascript" src="./lib/jquery.min.js"></script>
+    <script type="text/javascript" src="./lib/jquery-mobile-1.4.5.min.js"></script>
+    <script src="jquery.ui.touch-punch.min.js"></script>
+    
+    <script type="text/javascript" src="./lib/jquery.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    Start of first page: #one
+    <div data-role="page" id="one" data-theme="a">
+    
+    <div data-role="header">
+    <h1>Welcome To My Homepage</h1>
+  	</div>
+  	
+        <div data-role="content">
+            <div id="drag1" class="ui-widget ui-corner-all">
+                <img alt="sea" src="./images/Tizen_Logo.png" width="130px" height="100px">
+            </div>
+            <div id="drop1" class="ui-widget ui-corner-all">Перетащите элемент сюда.</div>
+            <ul data-role="page" id="list1" >
+                <li>Show internal pages:</li>
+                <li><a href="#two">Show page "two"</a>
+                </li>
+            </ul>
+
+        </div>
+        /content
+    </div>
+    /page one
+
+    Start of second page: #two
+    <div data-role="page" id="two" data-theme="b">
+        <div data-role="header">
+            <h1>Two</h1>
+        </div>
+        /header
+
+        <div data-role="content">
+            <h2>Two</h2>
+            <canvas id='draw' width='240' height='180' style='border:1px solid;'></canvas>
+            <script type='text/javascript'>
+                var canvas=document.getElementById("draw")
+                    var x=canvas.getContext("2d");
+                    x.font="italic 20pt Arial";
+                    x.fillText("Tizen", 15, 40);  
+                    x.fillStyle = 'blue';
+                    x.fillText("Javascript", 15, 67); 
+                    x.font="italic 25pt Arial";
+                    x.fillStyle = 'blue';
+                    x.fillText("canvas", 40, 116);
+                    x.fillStyle = 'red';
+                    x.fillText("HTML5", 12, 110);
+            </script>
+            
+            <canvas id='draw1' width='240' height='240' style='border:1px solid;'></canvas>
+            <script type='text/javascript'>
+                var canvas=document.getElementById("draw1")
+                    var x=canvas.getContext("2d");
+                    var r = 0;
+                    for (i = 0; i < 8; i++) {
+                    	for (j = 0; j < 8; j++) {
+                    		if (r % 2 === 0) {
+                    			 x.fillStyle = 'blue';
+                    		} 
+                    		else {
+                    			 x.fillStyle = 'red';
+                    		}
+                    		x.fillRect(30 * i, 30 * j, 30, 30);
+                    		r++;
+                    	}
+                    	r++;
+                    }
+            </script>
+            <canvas id='canvas3' width='300' height='300' style='border:1px solid;'></canvas>
+            <p><a href="#one" data-role="button">Back to page "one"</a>
+            </p>
+        </div>
+        /content
+    </div>
+    /page two
+
+</body>
+
+</html>
+ -->
+
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="jquery.ui.touch-punch.min.js"></script>
+
+</head>
+
+<body>
+
+    <div data-role="page" id="pageone">
+        <div data-role="header">
+            <h1>Welcome To My Homepage</h1>
+        </div>
+
+        <div data-role="main">
+            <p>Welcome! If you click on the link below, it will take you to Page Two.</p>
+            <div id="drag1" class="ui-widget ui-corner-all">
+                <img alt="sea" src="./images/Tizen_Logo.png" width="130px" height="100px">
+            </div>
+            <div id="drop1" class="ui-widget ui-corner-all">Перетащите элемент сюда.</div>
+            <a href="#pagetwo">Go to Page Two</a>
+        </div>
+
+        <div data-role="footer">
+            <h1>Footer Text</h1>
+        </div>
+    </div>
+
+    <div data-role="page" id="pagetwo">
+        <div data-role="header">
+            <h1>Welcome To My Homepage 1</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <p>This is Page Two. If you click on the link below, it will take you to Page One.</p>
+            <canvas id='draw' width='240' height='180' style='border:1px solid;'></canvas>
+            <script type='text/javascript'>
+                var canvas=document.getElementById("draw")
+                    var x=canvas.getContext("2d");
+                    x.font="italic 20pt Arial";
+                    x.fillText("Tizen", 15, 40);  
+                    x.fillStyle = 'blue';
+                    x.fillText("Javascript", 15, 67); 
+                    x.font="italic 25pt Arial";
+                    x.fillStyle = 'blue';
+                    x.fillText("canvas", 40, 116);
+                    x.fillStyle = 'red';
+                    x.fillText("HTML5", 12, 110);
+            </script>
+
+            <canvas id='draw1' width='240' height='240' style='border:1px solid;'></canvas>
+            <script type='text/javascript'>
+                var canvas=document.getElementById("draw1")
+                    var x=canvas.getContext("2d");
+                    var r = 0;
+                    for (i = 0; i < 8; i++) {
+                    	for (j = 0; j < 8; j++) {
+                    		if (r % 2 === 0) {
+                    			 x.fillStyle = 'blue';
+                    		} 
+                    		else {
+                    			 x.fillStyle = 'red';
+                    		}
+                    		x.fillRect(30 * i, 30 * j, 30, 30);
+                    		r++;
+                    	}
+                    	r++;
+                    }
+            </script>
+            <canvas id='canvas3' width='300' height='300' style='border:1px solid;'></canvas>
+            <a href="#pageone">Go to Page One</a>
+        </div>
+
+        <div data-role="footer">
+            <h1>Footer Text</h1>
+        </div>
+    </div>
+    
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

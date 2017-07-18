@@ -1,0 +1,26 @@
+#drag1 {
+padding:15px;
+border-style:solid;
+border-width:1px;
+border-radius: 100%;
+width:130px;
+height:100px;
+}
+.ui-draggable-dragging {
+background-color:#ecbfda;
+}
+#drop1 {
+position:absolute;
+top:200px;
+padding:15px;
+border-style:solid;
+border-width:1px;
+width:130px;
+height:100px;
+}
+#two {
+	overflow: scroll;
+}
+#list1 {
+	vertical-align:bottom;
+}

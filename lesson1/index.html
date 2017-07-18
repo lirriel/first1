@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./lib/tau/mobile/theme/default/tau.css">
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <script src="js/main.js"></script>
+    <script type="text/javascript" src="./lib/jquery.js"></script>
 </head>
 
 <body>
@@ -22,7 +23,8 @@
         </header>
         <div class="ui-content">
             <article>
-                <h1> <img src="images/tizen_32.png" width="32"/> Application Name </h1> 
+                <h1> <img id="drag1" src="images/tizen_32.png" width="32"/> Application Name </h1> 
+               
                 <p>This is an empty template of Tizen Web Application. Tizen will support multiple device categories:</p>
                 <ul>
                     <li>smartphones, tablets and smart TVs
@@ -34,6 +36,7 @@
                         <button style="text-align:center;" onclick="startTime();">Clock</button>
                     </div>
                 </section>
+                <img id="drop1" src="images/tizen_32.png" width="32"/> 
             </article>
             <ul class="ui-listview">
                 <li class="ui-group-index">Show internal pages:</li>

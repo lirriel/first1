@@ -5,6 +5,8 @@ var checkTime;
 var init = function() {
     // TODO:: Do your initialization job
     console.log("init() called");
+    
+    $(".ui-page#two").css({"color":"red","font-size":"24px"});
 
     // add eventListener for tizenhwkey
     document.addEventListener('tizenhwkey', function(e) {
@@ -56,3 +58,4 @@ function checkTime(i) {
     }
     return i;
 }
+

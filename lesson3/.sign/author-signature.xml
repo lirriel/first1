@@ -2,10 +2,6 @@
 <SignedInfo>
 <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></CanonicalizationMethod>
 <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
-<Reference URI="BasicApplication.wgt">
-<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>G1HeLH+76GozwA6m0BkGVyp/VPVwxxsu/zXHm7rQYNA=</DigestValue>
-</Reference>
 <Reference URI="config.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
 <DigestValue>1XMZ5XYZeVhQapQ7/7p0meE8fb4LcNJqj+wEvh9oocM=</DigestValue>
@@ -16,7 +12,7 @@
 </Reference>
 <Reference URI="css%2Fstyle.css">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>Iu0mXoFnYH2Xdi4HY8ZzzYCrvvFafhAq3DD4TqYQIO8=</DigestValue>
+<DigestValue>/IYmzaijTm+mkc664mXV38aBQpdIBwbCTlcjhWp8/j4=</DigestValue>
 </Reference>
 <Reference URI="icon.png">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -52,19 +48,19 @@
 </Reference>
 <Reference URI="js%2Fmain.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>umm7JsuZjKmhcD/q2RzYKOXLCCyoLJXXlS+isdTC8vU=</DigestValue>
+<DigestValue>Faa3KXZpduQF28Q3/zMMna00X7pqcrvKBpu1M4bjQpg=</DigestValue>
 </Reference>
 <Reference URI="js%2Frss.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>dR21tP5xBKeUW1T0MwIFhEiZaDlOzMFJQMR5y3JXwpc=</DigestValue>
+<DigestValue>37AjBm8jjJosXe++piydUPoQjYbrJPfroLZUIQRP3G8=</DigestValue>
 </Reference>
 <Reference URI="js%2Frss_db.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>XYZjR3ZqJ9adq1S4Qdr94rnTslLp357QseATiR0LA+M=</DigestValue>
+<DigestValue>cvm0xSTrEWQ9U9LVi48pPgMzWagDd65DVQNpQfXVBK0=</DigestValue>
 </Reference>
 <Reference URI="js%2Fwebsql_rss_db.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>+gVoMIjGnyTCWH+/Bplolar7to40VRWid8sKfAyecgY=</DigestValue>
+<DigestValue>wNhq9DaztiecYNnGKcKX6gkpMTFrTllTsA0AURxOG98=</DigestValue>
 </Reference>
 <Reference URI="rss.html">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -72,7 +68,7 @@
 </Reference>
 <Reference URI="rss_offline.html">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>nc80zFL265KNDKs2E42efxjjgOywZxWBIofNqgqnT24=</DigestValue>
+<DigestValue>Pye1+FVBLXZGd6sisBfG19Gjd3j2dRinTuS/5k/zfLs=</DigestValue>
 </Reference>
 <Reference URI="#prop">
 <Transforms>
@@ -83,11 +79,11 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-Ur5kxnRUYMvOlVB/Q8f5GMb8sDpP1snQgfitxkNOSPB9zBaP7HnR/D+4vQS50ZzRJ1lOsYxn9yEk
-ehwh/3HjRW8RYVRC5CEE1eUcZ07XcA26ketBRmUsGi1jnA/IuONkibD6VamJxZldUpyxRko73NGO
-APS2lFyLzw7OxQ3u9YOOHCIIAqVOSFMs5DZhFFCacwvxKharaFlFW8nIFiaO64qT/7txU7k/I7nf
-OCAarH2V7RprytbkJe6mcCT58YWsyklnJlOVHQWi930r22hSwsDJPs6NL+9ZT45YszCHHKXJNs9K
-/5jYyuz2iMrZi3zmdZPId5aTFjEEEY/joYP9Bg==
+o+FYZ7NuiFoZJeBmrS+H7iP4iNQ57TbSycyBDUvaVtlAJpXM8VwTkEIMebvgFWaJ5rRq3WCOE0+L
+Pz6d1TCGCk3XIeI7Sfm5hNcbiuzNShQLonMo+4j1qCrKjSRZshYAO4cor/rL2hR0niP7Sh3N2Wa4
+S2ZZy+RR7WtD3f+OIN8Uy0bxKjmsZsxUD2BndK8gJGB7G4h2qLyrtnvcNTcORm5tcZVCVeqBvNje
+lkKs4lPOZB3mNkB28Oh2cdk/Ip9DsDp1TH3hk3i/g83vA/4/1TFsPNdlDZavJ10soseetbDJYIwV
+pzyUv8Lh4KHpUEJo8dlnRR96Ng0rZuCccoSanA==
 </SignatureValue>
 <KeyInfo>
 <X509Data>

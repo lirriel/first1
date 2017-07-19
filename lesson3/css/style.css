@@ -29,6 +29,11 @@ header h1 {
 	color: #90C2E8;
 }
 
+.image canvas {
+	margin-bottom: 10px;
+	width: 100%;
+}
+
 .image img {
 	margin-bottom: 10px;
 	width: 100%;

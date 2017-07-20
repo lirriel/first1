@@ -10,6 +10,7 @@
         <script src="js/jquery-2.0.0.min.js"></script>		
         <script src="js/camera.js"></script>
         <script src="js/savefile.js"></script>	
+         <script src="js/wi_fi.js"></script>	
         <script src="js/jquery.mobile-1.4.5.min.js" type="application/x-javascript" charset="utf-8"></script>	
 		<script>		
 
@@ -81,7 +82,14 @@
 						<option value="a">A</option>
 						<option value="b">B</option>
 						<option value="c">C</option>
-					</select>						
+					</select>	
+					<div class="connection-status">Wifi connetction: </div>	
+					
+					<div class="buttons">
+						<button id="btn1" onclick="vibrate(1000);">Vibr once</button>		
+						<button id="btn2" onclick="infiniteVibrate([200,100,300,100],1000);">melody</button>				
+						<button id="btn3" onclick="stopVibrate();">Stop</button>
+					</div>				
 				</div>	
 			</div>
 

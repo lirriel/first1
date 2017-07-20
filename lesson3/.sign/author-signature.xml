@@ -32,7 +32,7 @@
 </Reference>
 <Reference URI="jqm.html">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>jKhGjzh6UgKDszeb4fkQhEJpeLSmBB876wNrw3BYdbg=</DigestValue>
+<DigestValue>GrMo0KQ+hsyJxIkDmJoJJcxesFbezhKvd+ckzIAmzbQ=</DigestValue>
 </Reference>
 <Reference URI="js%2Fcamera.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -70,6 +70,10 @@
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
 <DigestValue>wNhq9DaztiecYNnGKcKX6gkpMTFrTllTsA0AURxOG98=</DigestValue>
 </Reference>
+<Reference URI="js%2Fwi_fi.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>z46vU3FwIGN2mNa5epEkmuBjDfrS96/WByWmG6IAEgU=</DigestValue>
+</Reference>
 <Reference URI="rss.html">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
 <DigestValue>XJ7tqPrAXh0m/mfskeV9H4SgFwMCFeiPljXa5Pmn4nc=</DigestValue>
@@ -87,11 +91,11 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-JPXs3PYWRgQ05VPiWJWHwtic+v2Vs4GnRIrqi84aZjzw83mTSerbIKd7GSTWDG89IbdTGicvgS09
-TLRHcZONeqao9BCwtAMRVPE4uPw2ZgUPkLGoVUTd/Ro9u3Hdgq64s6fxmD+NFYzO/KJXwTY8M927
-lNlwKs/4KJnWavq7VpEySfVu7N6zhkXMk73FMlBQpiEPmGD7HzNxWgxqlEm0LpbVs7OexI+EHBHr
-rwwxqzoidHKVXSvKGkHrOvpqBlX12QQha6Str9DwkycZlxLjlJEoymhuHl3uno6nnJ+Ei1X/iMZU
-Y/FltwpDxIvV7rUbWnfQkATCYtLWmWoRmx+KbQ==
+Mvo2lVWGEwW2zFYOAkIsyE52UPnUseTwESjWZUZOfY6vMdoSl3jn7jc10gK/wilT5oj8kiDpD36c
+iWbj7oAtd5l/K0KMCBxEjlWZGqX2wc3itvl7KO4Z6xE88jcvruo6z65kmV95gZ5PLOpcLJVzJFQK
+/eUPEdwYPQAj40PSLzeAl0iJ5l1qNxtAD98ZazzII6G+Q0vPxqww1NCi4rmDfnWi0ytMVQIutl18
+vA56NPm3kWHHBKczLudjm5V51f7FJqC/YgfDhGGmy3M2nGxHX9qJyWkfYMmvG1dl6RLXj75EALl/
++pl2f2CC3eYyrdCb745QD4WgSaw8AE/jSB/R+A==
 </SignatureValue>
 <KeyInfo>
 <X509Data>

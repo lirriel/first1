@@ -1,14 +1,6 @@
 #delete
-res/wgt/BasicApplication.wgt
-res/wgt/lesson3.wgt
 #add
 #modify
 res/wgt/author-signature.xml
 res/wgt/signature1.xml
-res/wgt/css/style.css
-res/wgt/js/main.js
-res/wgt/js/rss.js
-res/wgt/js/rss_db.js
-res/wgt/js/websql_rss_db.js
-res/wgt/rss.html
-res/wgt/rss_offline.html
+res/wgt/js/savefile.js

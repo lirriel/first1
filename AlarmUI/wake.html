@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <title>Alarm</title>
+    <!-- CSS files for TAU and circle UI -->
+    <link rel="stylesheet" href="lib/tau/wearable/theme/default/tau.min.css">
+    <link rel="stylesheet" media="all and (-tizen-geometric-shape: circle)" href="lib/tau/wearable/theme/default/tau.circle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- main page -->
+    <div id="main-page" class="ui-page">
+
+        <!-- header -->
+        <header class="ui-header">
+            <h2 class="ui-title">Alarm</h2>
+        </header>
+
+        <!-- content -->
+        <div class="ui-content">
+            <ul class="ui-listview">
+                <li class="li-has-multiline li-has-toggle">
+                    <label>
+                        <div class="alarm-list ">
+                            <div class="time-container">
+                                <span class="time">7:45</span>
+                                <span class="ampm">AM</span>
+                            </div>
+                            <div class="li-text-sub ui-li-sub-text date-container">
+                                <span class="normal">Wed, 6 May</span>
+                            </div>
+                        </div>
+                        <div class="ui-toggleswitch">
+                            <input type="checkbox" class="ui-switch-input">
+                            <div class="ui-switch-button"></div>
+                        </div>
+                    </label>
+                </li>
+                <li class="li-has-multiline li-has-toggle">
+                    <label>
+                        <div class="alarm-list ">
+                            <div class="time-container">
+                                <span class="time">7:50</span>
+                                <span class="ampm">AM</span>
+                            </div>
+                            <div class="li-text-sub ui-li-sub-text date-container">
+                                <span class="select">S M T W T F S</span>
+                            </div>
+                        </div>
+                        <div class="ui-toggleswitch">
+                            <input type="checkbox" class="ui-switch-input">
+                            <div class="ui-switch-button"></div>
+                        </div>
+                    </label>
+                </li>
+                <li class="li-has-multiline li-has-toggle">
+                    <label>
+                        <div class="alarm-list ">
+                            <div class="time-container">
+                                <span class="time">7:55</span>
+                                <span class="ampm">AM</span>
+                            </div>
+                            <div class="li-text-sub ui-li-sub-text date-container">
+                                <span class="normal">S M T W</span>
+                                <span class="select">T F</span>
+                                <span class="normal">S</span>
+                            </div>
+                        </div>
+                        <div class="ui-toggleswitch">
+                            <input type="checkbox" class="ui-switch-input">
+                            <div class="ui-switch-button"></div>
+                        </div>
+                    </label>
+                </li>
+                <li class="li-has-multiline li-has-toggle">
+                    <label>
+                        <div class="alarm-list ">
+                            <div class="time-container">
+                                <span class="time">8:00</span>
+                                <span class="ampm">AM</span>
+                            </div>
+                            <div class="li-text-sub ui-li-sub-text date-container">
+                                <span class="normal">Wed, 7 May</span>
+                            </div>
+                        </div>
+                        <div class="ui-toggleswitch">
+                            <input type="checkbox" class="ui-switch-input">
+                            <div class="ui-switch-button"></div>
+                        </div>
+                    </label>
+                </li>
+            </ul>
+        </div>
+
+        <!-- footer -->
+        <footer class="ui-footer ui-bottom-button">
+            <button class="ui-btn" id="add-alarm-button">ADD</button>
+        </footer>
+    </div>
+
+    <!-- common javascript files for TAU and circle UI -->
+    <script type="text/javascript" src="lib/tau/wearable/js/tau.min.js"></script>
+    <script type="text/javascript" src="js/circle-helper.js"></script>
+    <!-- javascript file for application common element -->
+    <script src="js/app.js"></script>
+    <!-- javascript file for indicator animation (indicator-page) -->
+    <script src="js/pageindicator.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</body>
+</html>

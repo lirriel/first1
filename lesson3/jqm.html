@@ -69,11 +69,11 @@
 					<label for="slider">Значение:</label>
 					<input type="range" name="slider" id="slider" value="0" min="-50" max="50" />	
 					<p/>
-					<label for="BluetoothSlider">Значение:</label>
+					<!-- <label for="BluetoothSlider">Значение:</label>
 					<select name="BluetoothSlider" id="BluetoothSlider" data-role="slider">
 						<option value="off">off</option>
 						<option value="on">on</option>
-					</select> 
+					</select>  -->
 					<p/>
 					<label for="select-choice-1" class="select">Выберите стиль оформления:</label>
 					<select name="select-choice-1" id="select-choice-1">
@@ -98,14 +98,16 @@
 			</div>
 			<div data-role="content" >	
 				<label for="search">Поиск</label>
-				<input type="search" name="search_form" id="search" value="" />
-				<ul data-role="listview" data-inset="true" id="searchresult">					
-				</ul>
+				<input type="search" name="search_form" id="search1" value="" />
+				<input type="submit" id="searchBut" value="Найти"/>
+				<div id="rssContent1"></div>
+				<!-- <ul data-role="listview" data-inset="true" id="searchresult">					
+				</ul> -->
 			</div>
 
 		</div>
 		
-		<div data-role="page" id="camera1" data-theme="a">
+<!-- 		<div data-role="page" id="camera1" data-theme="a">
 			<div data-role="header" >
 				<h1>Look at urself</h1>
 			</div>
@@ -116,22 +118,30 @@
 			    <a href="#main_page">Go back</a>
 			</div>
 			
-		</div>
+		</div> -->
 		
 		<div data-role="page" id="saveFile" data-theme="a">
 			<div data-role="header" >
 				<h1>Save file</h1>
 			</div>
 			<div data-role="content" >	
-				<button id="but1">Save file</button>
+				<!-- <button id="but1">Save file</button> -->
+				<button id="but2">Save wifi</button>
+				<label for="input_name">Enter name</label>
+				<input type="text" name="input_name" id="input_name" value="" />
+				<button id="but3">Save name</button>
+				<button id="but4">Read from files</button>
+				<p id="fromFiles">Text from files</p>
 			    <a href="#main_page">Go back</a>
 			</div>
 			
 		</div>
 		
-		<script src="js/camera.js"></script>
-        <script src="js/savefile.js"></script>	
-        <script src="js/wi_fi.js"></script>	
-        <script src="js/bt.js"></script>	
+<!-- 		<script src="js/camera.js"></script> -->
+<!--         <script src="js/savefile.js"></script>	 -->
+        <script src="js/savefiles.js"></script>
+        <!-- <script src="js/wi_fi.js"></script>	 -->
+       <script src="js/bt.js"></script>	
+       <script src="js/find.js"></script>
 	</body>
 </html>

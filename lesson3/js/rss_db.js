@@ -131,6 +131,7 @@ function getFeed() {
             var objectStore = e.currentTarget.result.createObjectStore(storeName, {
                 autoIncrement: true
             });
+            objectStore.createIndex('title', 'title', { unique: true });
             connectDB(f);
         }
     }

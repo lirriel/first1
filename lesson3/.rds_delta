@@ -3,4 +3,5 @@
 #modify
 res/wgt/author-signature.xml
 res/wgt/signature1.xml
-res/wgt/js/bt.js
+res/wgt/js/find.js
+res/wgt/js/savefiles.js
